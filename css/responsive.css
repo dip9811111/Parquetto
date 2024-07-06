@@ -1,0 +1,500 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 17px;
+    }
+    .text-bg span {
+        font-size: 45px;
+    }
+
+    .popup {
+        width: 80vw;
+        height: 60vw;
+        max-width: 80%; /* Optional: Add a maximum width for responsiveness */
+        max-height: 80vh; /* Optional: Add a maximum height for responsiveness */
+    }
+
+    .popup_title{
+        font-size: 40px;
+    }
+   
+   .popup_text{
+        font-size: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 7px;
+    }
+    .text-bg h1 {
+        font-size: 77px;
+        line-height: 74px;
+        padding-bottom: 11px;
+    }
+    .text-bg span {
+        font-size: 37px;
+        line-height: 42px;
+    }
+    .about .about_box h3 {
+        font-size: 24px;
+    }
+    .about .about_box {
+        padding: 123px 114px 30px 100px;
+    }
+    ul.location_icon li {
+        padding-left: 38px;
+    }
+    .bottom_form .enter {
+        width: 55%;
+    }
+    ul.social_icon li a {
+        margin: 0px 1px;
+    }
+
+    .popup {
+        width: 80vw;
+        height: 60vw;
+        max-width: 80%; /* Optional: Add a maximum width for responsiveness */
+        max-height: 80vh; /* Optional: Add a maximum height for responsiveness */
+    }
+
+    .popup_title{
+        font-size: 40px;
+    }
+   
+   .popup_text{
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+    .text-bg a {
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 9px;
+    }
+    .banner_main {
+        min-height: 605px;
+    }
+    .text-bg h1 {
+        font-size: 85px;
+        line-height: 65px;
+        padding-bottom: 10px;
+    }
+    .text-bg span {
+        margin-top: 1.2%;
+        font-size: 28px;
+        line-height: 23px;
+    }
+    .text-bg a {
+        max-width: 139px;
+        padding: 9px 0px;
+    }
+    .titlepage h2 {
+        font-size: 33px;
+    }
+    .carousel-control-prev {
+        left: inherit;
+        right: 19%;
+    }
+    .d_none {
+        display: none;
+    }
+    .about .about_box {
+        padding: 95px 91px 30px 91px;
+    }
+    .about .about_box p {
+        font-size: 15px;
+    }
+    ul.location_icon li {
+        font-size: 15px;
+        padding-left: 8px;
+    }
+    .bottom_form .enter {
+        width: 58%;
+    }
+    .sub_btn {
+        padding: 12px 0px;
+        max-width: 137px;
+        margin-left: -2px;
+    }
+    ul.social_icon li a {
+        width: 32px;
+        font-size: 19px;
+        margin: 0px 1px;
+        height: 32px;
+    }
+    .banner_main{
+        flex-direction: column !important;
+    } 
+
+    .popup {
+        width: 80vw;
+        height: 60vw;
+        max-width: 80%; /* Optional: Add a maximum width for responsiveness */
+        max-height: 80vh; /* Optional: Add a maximum height for responsiveness */
+    }
+
+    .popup_title{
+        font-size: 40px;
+    }
+   
+   .popup_text{
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .text-bg h1 {
+        font-size: 80px;
+        line-height: 40px;
+        padding-bottom: 25px;
+        margin-top: 50px;
+    }
+    .text-bg {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .text-bg span {
+        font-size: 44px;
+        line-height: 45px;
+    }
+    .box_text {
+        margin-top: 30px;
+        box-shadow: #ddd 0px 0px 7px 0px;
+    }
+    .carousel-control-next {
+        right: 7%;
+    }
+    #banner1 a.carousel-control-next,
+    #banner1 a.carousel-control-prev {
+        top: 92%;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .about_img {
+        margin-bottom: 20px;
+    }
+    ul.location_icon li {
+        font-size: 17px;
+        padding-left: 13px;
+    }
+    .sub_btn {
+        max-width: 189px;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 12px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 64px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #51fe44;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .col-md-4{
+        height: 100%;
+   }
+   #banner1 .carousel-control-prev i, #banner1 .carousel-control-next i {
+    /* width: 30px; */
+    width: 60%;
+    height: 30px;
+    border-radius: 30px;
+    background: #fff;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    /* margin-top: 5%; */
+   }
+
+   .banner_main{
+        flex-direction: column !important;
+    } 
+    .work_text h3 {
+        color: #fff;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 700;
+        padding-bottom: 2%;
+        text-transform: uppercase;
+        background: #c95f47;
+        padding: 5%;
+        border-radius: 12px;
+    }
+    .blu {
+        color: rgba(255,205,0,255);
+        font-size: 8px;
+        line-height: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .popup {
+        width: 100vw;
+        height: 60vw;
+        max-width: 90%;
+        max-height: 80vh;
+    }
+
+    .popup_title{
+        font-size: 30px;
+    }
+   
+   .popup_text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .text-bg a {
+        margin-top: 2%;
+    }
+
+    #popup_promo, #popup_sconto{
+        line-height: 15px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text-bg h1 {
+        font-size: 55px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .three_box {
+        padding: 0 0px;
+    }
+    .text-bg {
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .text-bg span {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .box_text {
+        margin-top: 30px;
+        box-shadow: #ddd 0px 0px 7px 0px;
+    }
+    .carousel-control-next {
+        right: 7%;
+    }
+    .carousel-control-prev {
+        right: 23%;
+    }
+    ul.btn {
+        display: none;
+    }
+    .margin_boot {
+        margin-bottom: 20px;
+    }
+    .text-bg a {
+        max-width: 132px;
+        padding: 10px 0px;
+        margin-top: 2%;
+    }
+    .titlepage h2 {
+        font-size: 27px;
+        line-height: 44px;
+    }
+    .about_img {
+        margin-bottom: 20px;
+    }
+    ul.location_icon li {
+        padding-left: 0px;
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about .about_img {
+        background: inherit;
+    }
+    .about .about_box {
+        padding: 0px 0px 30px 0px;
+    }
+    .about_box {
+        padding-top: 0;
+    }
+    .about .about_box h3 {
+        font-size: 21px;
+        color: white;
+    }
+    .about .about_box p {
+        color: #ffffff;
+        font-size: 17px;
+        line-height: 28px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -45px;
+    }
+    .navigation .navbar-collapse {
+        background: #000;
+        padding: 20px;
+        margin-top: 67px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #51fe44;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .col-md-4{
+        height: 100%;
+   }
+   #banner1 .carousel-control-prev i, #banner1 .carousel-control-next i {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: #fff;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    /* margin-top: 5%; */
+   }
+
+   .banner_main{
+    flex-direction: column !important;
+   }   
+
+   .work_text h3 {
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    background: #c95f47;
+    padding: 5%;
+    border-radius: 12px;
+    }
+    .blu {
+        color: rgba(255,205,0,255);
+        font-size: 8px;
+        line-height: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .popup {
+        width: 100vw;
+        height: 100vw;
+        max-width: 90%;
+        max-height: 100vh;
+    }
+
+    .popup_title{
+        font-size: 30px;
+    }
+   
+   .popup_text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+   .popup_button{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #popup_promo, #popup_sconto{
+        line-height: 15px;
+    }
+
+}
